@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>page-5</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="page5.css">
+</head>
+<body>
+    <div class="row buttonall">
+        <div class="col-lg-2"> <button type="button" class="btn btn1 btn-outline-primary " >Complaintant <br> Record</button></div>
+        <div class="col-lg-2">  <button type="button" class="btn btn1 btn-outline-primary" >Complaints<br> Record</button></div>
+         <div class="col-lg-2"> <button type="button" class="btn btn1 btn-outline-primary">Student <br> Volunteer</button></div>
+        <div class="col-lg-2"> <button type="button" class="btn btn1 btn-outline-primary" >Faculty <br> Coordinator</button></div>
+        <div class="col-lg-2"> <button type="button" class="btn btn1 btn-outline-primary">Report <br> Generation</button></div>
+        <div class="col-lg-2"> <button type="button" class="btn btn1 btn-outline-primary" >Logout<br>Main</button></div>
+       </div>
+
+       <div class="input-group mb-3 userpass" >
+        <input  type="text" class="form-control" placeholder="Search here" aria-label="Recipient's username" aria-describedby="button-addon2">
+        <div class="input-group-append">
+          <button class="btn btn2 btn-outline-secondary" type="button" id="button-addon2">Search</button>
+        </div>
+      </div>
+<!-- table-->
+
+<table class="table table-bordered table-light" >
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Complaint ID </th>
+        <th scope="col">Complaint name</th>
+        <th scope="col">Complaintant ID</th>
+        <th scope="col">Complaintant name</th>
+        <th scope="col">Date filled </th>
+        <th scope="col">Date closed</th>
+        <th scope="col">Report file</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>ID1</td>
+        <td>NAME1</td>
+        <td></td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>          <!-- use colspan="2" to make a 2 cell table -->
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td colspan=""></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <!--table-->
+ 
+  <form class=" allfield">
+    
+     <div class="row">
+       <div class="form-group form1-2 col-lg-6">
+      <label for="exampleInputEmail1">Complaint ID</label>
+      <input type="input" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter ID" style="width: 400px;">
+      
+    </div>
+    <div class="form-group form1-2 col-lg-6">
+      <label for="exampleInputPassword1">Complaint Name </label>
+      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="E-mail" style="width: 400px;">
+    </div> 
+   
+    <div class="form-group form1-2 col-lg-6">
+      <label for="exampleInputPassword1">Complaintant ID</label>
+      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Department" style="width: 400px;">
+    </div> 
+ 
+    <div class="form-group form1-2 col-lg-6">
+      <label for="exampleInputPassword1">Complaintant name</label>
+      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Complaintant name" style="width: 400px;">
+    </div> 
+
+    <div class="form-group form1-2 col-lg-6">
+      <label for="exampleInputPassword1">Date filled</label>
+      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Date filled" style="width: 400px;">
+    </div> 
+
+    <div class="form-group form1-2 col-lg-6">
+      <label for="exampleInputPassword1">Date closed</label>
+      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Date closed" style="width: 400px;">
+    </div> 
+     <h4>Report file</h4>
+    <div class="input-group col-lg-4" >
+      <div class="custom-file">
+        <input type="file"  class="custom-file-input" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04">
+        <label class="custom-file-label" for="inputGroupFile04">Choose file</label>
+      </div>
+      <div class="input-group-append">
+        <button class="btn btn-outline-primary" style="background-color: white;" type="button" id="inputGroupFileAddon04">Submit</button>
+      </div>
+    </div>
+    </div>
+  
+  </form>
+
+  <div class="lowerbtn row">
+    <div class="col-lg-2"> <button type="button" class="btn btn1 btn2 btn-outline-primary " >EDIT</button></div>
+    <div class="col-lg-2">  <button type="button" class="btn btn1 btn2 btn-outline-primary" >ADD</button></div>
+     <div class="col-lg-2"> <button type="button" class="btn btn1 btn2 btn-outline-primary">Delete</button></div>
+  </div><br><br>
+</body>
+</html>
